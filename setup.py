@@ -73,7 +73,8 @@ setup(name='subliminal',
               'podnapisi = subliminal.providers.podnapisi:PodnapisiProvider',
               'shooter = subliminal.providers.shooter:ShooterProvider',
               'thesubdb = subliminal.providers.thesubdb:TheSubDBProvider',
-              'tvsubtitles = subliminal.providers.tvsubtitles:TVsubtitlesProvider'
+              'tvsubtitles = subliminal.providers.tvsubtitles:TVsubtitlesProvider',
+              'subtitulamos = subliminal.providers.subtitulamos:SubtitulamosProvider'
           ],
           'subliminal.refiners': [
               'metadata = subliminal.refiners.metadata:refine',
@@ -84,7 +85,8 @@ setup(name='subliminal',
               'addic7ed = subliminal.converters.addic7ed:Addic7edConverter',
               'shooter = subliminal.converters.shooter:ShooterConverter',
               'thesubdb = subliminal.converters.thesubdb:TheSubDBConverter',
-              'tvsubtitles = subliminal.converters.tvsubtitles:TVsubtitlesConverter'
+              'tvsubtitles = subliminal.converters.tvsubtitles:TVsubtitlesConverter',
+              'subtitulamos = subliminal.converters.subtitulamos:SubtitulamosConverter'
           ],
           'console_scripts': [
               'subliminal = subliminal.cli:subliminal'
